@@ -142,9 +142,9 @@ These challenges are adapted from **BrowseAutomation Challenges** and can be use
 
 ## Author / ผู้พัฒนา
 
-This project was created by [Your Name] to practice and enhance Automation Testing skills.
+This project was created by Baassza to practice and enhance Automation Testing skills.
 
-โครงการนี้พัฒนาโดย [ชื่อของคุณ] เพื่อฝึกฝนและเตรียมความพร้อมสำหรับการทำ Automation Testing
+โครงการนี้พัฒนาโดย Baassza เพื่อฝึกฝนและเตรียมความพร้อมสำหรับการทำ Automation Testing
 
 ---
 
