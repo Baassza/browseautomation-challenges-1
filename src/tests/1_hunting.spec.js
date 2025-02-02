@@ -11,7 +11,7 @@ test("Hunting", async ({ page }) => {
     const boxes = page.locator('div');
 
     for (const element of elements) {
-        if (element != "OFFLINE" && element.length < 0) {
+        if (element != "OFFLINE" && element.length > 0) {
             codes.push(element);
         }
     }
