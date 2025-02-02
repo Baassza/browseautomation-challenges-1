@@ -1,4 +1,4 @@
-# README - BrowseAutomation Challenges
+# README - Browse Automation Challenges
 
 ## About the Project / เกี่ยวกับโครงการ
 
