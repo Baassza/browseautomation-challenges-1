@@ -1,6 +1,6 @@
 import { test } from "@playwright/test";
 
-test("Registration Challenge", async ({ page }) => {
+test("Registration", async ({ page }) => {
     await page.goto("https://lemon-meadow-0c732f100.5.azurestaticapps.net/");
     await page.waitForSelector("text=Check all the boxes to get the unlock code!");
 

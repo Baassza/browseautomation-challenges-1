@@ -39,4 +39,5 @@ test("Button", async ({ page }) => {
         }
         await submitButton.click();
     }
+    await page.waitForSelector("strong:text('Challenge completed!')");
 });
