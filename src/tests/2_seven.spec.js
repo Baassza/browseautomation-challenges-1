@@ -37,7 +37,7 @@ function getSegment(number) {
     }
 }
 
-test("seven segment", async ({ page }) => {
+test("Seven", async ({ page }) => {
     await page.goto("https://lemon-meadow-0c732f100.5.azurestaticapps.net/ssg");
     await page.waitForSelector(".number");
     const numbers = await page.locator(".number").first().textContent();

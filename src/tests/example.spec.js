@@ -2,7 +2,7 @@ import { test } from "@playwright/test";
 
 let page;
 
-test.describe.serial("Example: Complete challenge step by step", () => {
+test.describe.serial("Example", () => {
 
     test.beforeAll(async ({ browser }) => {
         page = await browser.newPage();

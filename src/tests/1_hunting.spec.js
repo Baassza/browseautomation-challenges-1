@@ -27,5 +27,6 @@ test("Hunting", async ({ page }) => {
             }
         }
     }
+    await page.waitForSelector("strong:text('Challenge completed!')");
 
 });

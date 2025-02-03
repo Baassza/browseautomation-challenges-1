@@ -26,7 +26,7 @@ test("Towers", async ({ page }) => {
     for (let i = 0; i < towers.length - 1; i++) {
         let minIndex = i;
         for (let j = i + 1; j < towers.length; j++) {
-            const currentMin = Number(await towers[minIndex].textContent());
+            const currentMin = Number(await towers[minIndex].textContent({ timeout: 5000 }));
             const compareValue = Number(await towers[j].textContent());
             if (compareValue < currentMin) {
                 minIndex = j;
@@ -36,4 +36,5 @@ test("Towers", async ({ page }) => {
             await swap(towers[minIndex], towers[i]);
         }
     }
+    await page.waitForSelector("strong:text('Challenge completed!')");
 });
